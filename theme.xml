@@ -58,9 +58,9 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<alignment>right</alignment>
 		</text>
 		<controllerActivity name="controllerActivity">
-			<pos>0.0161 0.0107</pos>
-			<size>0.085 0.025</size>
-			<!--<horizontalAlignment>right</horizontalAlignment>-->
+			<pos>0.003 0.982</pos>
+			<size>0.015</size>
+			<horizontalAlignment>left</horizontalAlignment>
 			<itemSpacing>0.003</itemSpacing>
 			<imagePath>./_inc/icons/gamepad.png</imagePath>
 			<color>686068</color>
@@ -74,8 +74,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<pos>-2 -2</pos>
 			<color>00000000</color>
 		</batteryIndicator>
-
-
+		
 	</view>
 
 	<view name="system">
