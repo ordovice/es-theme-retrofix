@@ -47,16 +47,7 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 		</rating>
 	</view>
 
-
 	<view name="screen">
-		<controllerActivity name="controllerActivity">
-			<pos>-2 -2</pos>
-			<size>0.072395833333333 0.017592592592593</size>
-			<itemSpacing>0.003</itemSpacing>
-			<color>FFFFFF90</color>
-			<activityColor>FFFFFF</activityColor>
-			<hotkeyColor>DEEC00</hotkeyColor>
-		</controllerActivity>
 
 		<text name="clock">
 			<color>ffffff</color>
@@ -66,7 +57,17 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 			<size>0.09 0.058</size>
 			<alignment>right</alignment>
 		</text>
-
+		<controllerActivity name="controllerActivity">
+			<pos>0.0161 0.0107</pos>
+			<size>0.085 0.025</size>
+			<!--<horizontalAlignment>right</horizontalAlignment>-->
+			<itemSpacing>0.003</itemSpacing>
+			<imagePath>./_inc/icons/gamepad.png</imagePath>
+			<color>686068</color>
+			<activityColor>A0A0FFC0</activityColor>
+			<hotkeyColor>FFA0A0C0</hotkeyColor>
+			<zIndex>20</zIndex>
+		</controllerActivity>
 
 		<!-- forces UI icons off screen by default -->
 		<batteryIndicator name="batteryIndicator">
@@ -76,9 +77,6 @@ GitHub:      	https://github.com/20GotoTen/es-theme-retrofix
 
 
 	</view>
-
-
-
 
 	<view name="system">
 		<image name="logo">
